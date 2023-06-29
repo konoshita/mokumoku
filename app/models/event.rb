@@ -28,8 +28,4 @@ class Event < ApplicationRecord
     !past?
   end
 
-  def only_woman?
-    only_woman == true
-  end
-
 end
