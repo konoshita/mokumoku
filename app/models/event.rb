@@ -27,5 +27,4 @@ class Event < ApplicationRecord
   def future?
     !past?
   end
-
 end
